@@ -36,7 +36,7 @@ public class DecisionDotationController {
 	
 		return "addDecision";
 	}
-	
+	//
 	@RequestMapping(value = "/addDecision", method = RequestMethod.POST)
 	public String updateGoal(@Valid @ModelAttribute("dD") DecisionDotation descisionDotation, BindingResult result,Model model) {
 		
